@@ -6,8 +6,8 @@ import BootstrapNavbar from './bootsrapNavBar.js';
 function App() {
   return (
     <div className="App">
-      <BootstrapNavbar/>
       <header className="App-header">
+        <BootstrapNavbar/>
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Simons New Website</h1>
       </header>
