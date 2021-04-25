@@ -27,10 +27,10 @@
 .App-body {
   background-color: #282c34;
   min-height: 100vh;
-  max-width: 900px;
+  max-width: 850px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   text-align: left;
   font-size: calc(6 + 2vmin);
@@ -49,3 +49,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+a.page:link, a.page:visited {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+a.page:hover, a.page:active {
+    color: #fab300;
+    text-decoration: none;
+}
+

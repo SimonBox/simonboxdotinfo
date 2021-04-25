@@ -1,0 +1,52 @@
+.navbar-drk {
+    background-color: #282c34;
+}
+
+.navbar-drk .navbar-brand {
+  color: #fff;
+}
+
+.navbar-drk .navbar-brand:hover, .navbar-drk .navbar-brand:focus {
+  color: #fff;
+}
+
+.navbar-drk .navbar-nav .nav-link {
+  color: #61dafb;
+}
+
+.navbar-drk .navbar-nav .nav-link:hover, .navbar-drk .navbar-nav .nav-link:focus {
+  color: #fab300;
+}
+
+.navbar-drk .navbar-nav .nav-link.disabled {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-drk .navbar-nav .show > .nav-link,
+.navbar-drk .navbar-nav .active > .nav-link,
+.navbar-drk .navbar-nav .nav-link.show,
+.navbar-drk .navbar-nav .nav-link.active {
+  color: #fff;
+}
+
+.navbar-drk .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-drk .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-drk .navbar-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-drk .navbar-text a {
+  color: #fff;
+}
+
+.navbar-drk .navbar-text a:hover, .navbar-drk .navbar-text a:focus {
+  color: #fff;
+}
+
