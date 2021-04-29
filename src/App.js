@@ -8,8 +8,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <BootstrapNavbar/>
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1><a href="www.bbc.com">Simons New Website</a></h1>
       </header>
     </div>
   );
