@@ -17,7 +17,13 @@ class ImageViewer extends React.Component {
 
         return (
             <div>
-                <img src={this.props.images[this.props.idx].source} onClick={this.showathing}/>
+                <div align="center">
+                <img 
+                    width={this.props.width}
+                    src={this.props.images[this.props.idx].source} 
+                    onClick={this.showathing}
+                />
+                </div>
                 <p>Firstly: {this.props.images[0].source}</p>
                 <p>Secondly: {this.props.idx}</p>
                 <ModalGateway>
@@ -36,5 +42,10 @@ class ImageViewer extends React.Component {
 
 }
 
+ImageViewer.defaultProps = {
+    images: [{source: "/logo512.png"}],
+    idx: 0,
+    width: 500
+};
 
 export default ImageViewer;
