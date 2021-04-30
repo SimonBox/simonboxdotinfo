@@ -15,13 +15,6 @@
 
 .App-container {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  width: auto;
-  flex-direction: column;
-  align-items: center;
-  font-size: calc(6 + 2vmin);
-  color: white;
 }
 
 .App-body {
