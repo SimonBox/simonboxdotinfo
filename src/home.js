@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import ImageViewer from './image_view.js';
 
 
 class Homepage extends React.Component{
@@ -41,6 +42,7 @@ class Homepage extends React.Component{
             <div className="App-body">
                 {content}
                 {footer}
+                <ImageViewer/>
             </div>
         )
     }
