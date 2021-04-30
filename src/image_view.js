@@ -1,31 +1,40 @@
 import Carousel, { Modal, ModalGateway } from "react-images";
 import React from 'react';
 
-const images = [{caption: "A thing.", source: "/scalextrictc.jpg"},{source: '/scalextricbrain.jpg'}];
 
 class ImageViewer extends React.Component {
-    state = { modalIsOpen: true }
-    toggleModal = () => {
-        this.setState(state => ({ modalIsOpen: !state.modalIsOpen }))
+    constructor(props){
+        super(props);
+        this.state = { modalIsOpen: false };
+    }
+    showathing = () => {
+            this.setState(state => ({ modalIsOpen: true }))
+    }
+    donotshowathing = () => {
+            this.setState(state => ({ modalIsOpen: false }))
     }
     render() {
-        const { modalIsOpen } = this.state;
-        const idx = 0;
+
         return (
             <div>
-              <ModalGateway>
-                {modalIsOpen ? (
-                  <Modal onClose={this.toggleModal}>
-                    <Carousel
-                      currentIndex={idx}
-                      views={images}
-                    />
-                  </Modal>
-                ) : null}
-              </ModalGateway>
+                <img src={this.props.images[this.props.idx].source} onClick={this.showathing}/>
+                <p>Firstly: {this.props.images[0].source}</p>
+                <p>Secondly: {this.props.idx}</p>
+                <ModalGateway>
+                    {this.state.modalIsOpen ? (
+                      <Modal onClose={this.donotshowathing}>
+                        <Carousel
+                          currentIndex={this.props.idx}
+                          views={this.props.images}
+                        />
+                      </Modal>
+                    ) : null}
+                </ModalGateway>
             </div>
         )
     }
+
 }
+
 
 export default ImageViewer;

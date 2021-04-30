@@ -2,12 +2,15 @@ import React from 'react';
 import './App.css';
 import ImageViewer from './image_view.js';
 
+const images = [{caption: "A thing.", source: "/scalextrictc.jpg"},{source: '/scalextricbrain.jpg'}];
+
 
 class Homepage extends React.Component{
     content(){
         return(
             <div>
                 <h2>Raspberry Pi - iTelescope</h2>
+                <ImageViewer images={images} idx="1"/>
                 <p>The latest updates to this project to instrument a Sky-Watcher Dobsonian telescope include the adoption of a Raspberry Pi as the telescope's computer, bluetooth connection to a laptop and a user interface software on the laptop for set up and calibration.</p>
                     <iframe width="480" height="360" src="//www.youtube-nocookie.com/embed/fRAF6LnHk1A?rel=0" frameborder="0" allowfullscreen=""></iframe>
                 <h3>Software</h3>
@@ -42,7 +45,6 @@ class Homepage extends React.Component{
             <div className="App-body">
                 {content}
                 {footer}
-                <ImageViewer/>
             </div>
         )
     }
