@@ -1,5 +1,5 @@
 .navbar-drk {
-    background-color: #282c34;
+    background-color: #181a1f;
 }
 
 .navbar-drk .navbar-brand {
@@ -7,7 +7,7 @@
 }
 
 .navbar-drk .navbar-brand:hover, .navbar-drk .navbar-brand:focus {
-  color: #fff;
+  color: #fab300;
 }
 
 .navbar-drk .navbar-nav .nav-link {
