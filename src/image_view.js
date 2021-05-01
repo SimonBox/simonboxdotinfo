@@ -18,7 +18,8 @@ class ImageViewer extends React.Component {
         return (
             <div>
                 <div align="center">
-                <img 
+                <img
+                    alt={this.props.images[this.props.idx].caption}
                     width={this.props.width}
                     src={this.props.images[this.props.idx].source} 
                     onClick={this.showathing}
