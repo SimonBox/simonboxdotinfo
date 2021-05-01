@@ -1,12 +1,11 @@
-import React from 'react';
-import './App.css';
-import ImageViewer from './image_view.js';
-import YoutubeEmbed from './youtube_embed.js'
+import Page from '../page.js'
+import ImageViewer from '../image_view.js';
+import YoutubeEmbed from '../youtube_embed.js'
 
 const images = [{caption: "A thing.", source: "/scalextrictc.jpg"},{source: '/scalextricbrain.jpg'}];
 
 
-class Homepage extends React.Component{
+class Testpage extends Page{
     content(){
         return(
             <div>
@@ -24,31 +23,6 @@ class Homepage extends React.Component{
             </div>
         )
     }
-    footer(){
-        const date = new Date();
-        const year = date.getFullYear();
-        return(
-            <div>
-                <br/>
-                <hr style={{
-                    backgroundColor: '#fff',
-                    height: .5,
-                    color: '#fff'
-                    }}/>
-                <p>&copy; Simon Box {year}</p>
-            </div>
-        )
-    }
-    render(){
-        const content = this.content();
-        const footer = this.footer();
-        return(
-            <div className="App-body">
-                {content}
-                {footer}
-            </div>
-        )
-    }
 }
 
-export default Homepage;
+export default Testpage;

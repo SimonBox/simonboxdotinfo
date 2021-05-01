@@ -1,13 +1,13 @@
 .navbar-drk {
-    background-color: #181a1f;
+    background-color: #1f2329;
 }
 
-.navbar-drk .navbar-brand {
+.navbar-drk .navbar-brand, .navbar-drk .navbar-brand:focus{
   color: #fff;
 }
 
-.navbar-drk .navbar-brand:hover, .navbar-drk .navbar-brand:focus {
-  color: #fab300;
+.navbar-drk .navbar-brand:hover {
+  color: #e8e8e8;
 }
 
 .navbar-drk .navbar-nav .nav-link {
@@ -26,7 +26,7 @@
 .navbar-drk .navbar-nav .active > .nav-link,
 .navbar-drk .navbar-nav .nav-link.show,
 .navbar-drk .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #fab300;
 }
 
 .navbar-drk .navbar-toggler {
@@ -39,14 +39,27 @@
 }
 
 .navbar-drk .navbar-text {
-  color: rgba(255, 255, 255, 0.5);
+  color: #fff;
 }
 
 .navbar-drk .navbar-text a {
-  color: #fff;
+  color: #61dafb;
 }
 
 .navbar-drk .navbar-text a:hover, .navbar-drk .navbar-text a:focus {
-  color: #fff;
+  color: #fab300;
 }
 
+.navbar-drk .dropdown-menu {
+    color: #fff;
+    background-color: #1f2329;
+}
+
+.navbar-drk .dropdown-menu a {
+  color: #61dafb;
+}
+
+.navbar-drk .dropdown-menu  a:hover, .navbar-drk .dropdown-menu  a:focus {
+  color: #fab300;
+  background-color: #1f2329;
+}

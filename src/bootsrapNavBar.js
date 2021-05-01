@@ -1,12 +1,13 @@
 import React from 'react';
-import './navb.css'
+import './navb.css';
 import {
     BrowserRouter as Router,
     Switch,
     Route
   } from "react-router-dom";
-  import { Navbar,Nav,NavDropdown} from 'react-bootstrap'
-  import Homepage from './home.js';
+import { Navbar,Nav,NavDropdown} from 'react-bootstrap';
+import Testpage from './pages/test_page.js';
+
 
 class BootstrapNavbar extends React.Component{
 
@@ -21,10 +22,10 @@ class BootstrapNavbar extends React.Component{
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="mr-auto">
-                                    <Nav.Link href="/">Homepage</Nav.Link>
-                                    <Nav.Link href="/about-us">Homepage</Nav.Link>
-                                    <Nav.Link href="/contact-us">Homepage</Nav.Link>
-                                    <NavDropdown bg="blo" variant="dark" title="Dropdown" id="basic-nav-dropdown">
+                                    <Nav.Link href="/">Testpage</Nav.Link>
+                                    <Nav.Link href="/about-us">Testpage</Nav.Link>
+                                    <Nav.Link href="/contact-us">Testpage</Nav.Link>
+                                    <NavDropdown classNames="navbar-drk" title="Dropdown" id="basic-nav-dropdown">
                                         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
                                         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
@@ -37,13 +38,13 @@ class BootstrapNavbar extends React.Component{
                             <br />
                             <Switch>
                                 <Route exact path="/">
-                                    <Homepage />
+                                    <Testpage />
                                 </Route>
                                 <Route path="/about-us">
-                                    <Homepage />
+                                    <Testpage />
                                 </Route>
                                 <Route path="/contact-us">
-                                    <Homepage />
+                                    <Testpage />
                                 </Route>
                             </Switch>
                         </Router>
