@@ -25,8 +25,6 @@ class ImageViewer extends React.Component {
                     onClick={this.showathing}
                 />
                 </div>
-                <p>Firstly: {this.props.images[0].source}</p>
-                <p>Secondly: {this.props.idx}</p>
                 <ModalGateway>
                     {this.state.modalIsOpen ? (
                       <Modal onClose={this.donotshowathing}>

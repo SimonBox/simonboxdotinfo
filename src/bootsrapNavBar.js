@@ -7,7 +7,9 @@ import {
   } from "react-router-dom";
 import { Navbar,Nav,NavDropdown} from 'react-bootstrap';
 import Testpage from './pages/test_page.js';
-
+import RocketFlightSimulation from './pages/rocket_flight_simulation.js';
+import CambridgeRocketrySimulator from './pages/cambridge_rocketry_simulator.js';
+import CambridgeRocketryToolbox from './pages/cambridge_rocketry_toolbox.js';
 
 class BootstrapNavbar extends React.Component{
 
@@ -23,12 +25,12 @@ class BootstrapNavbar extends React.Component{
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="mr-auto">
                                     <Nav.Link href="/">Testpage</Nav.Link>
-                                    <Nav.Link href="/about-us">Testpage</Nav.Link>
-                                    <Nav.Link href="/contact-us">Testpage</Nav.Link>
-                                    <NavDropdown classNames="navbar-drk" title="Dropdown" id="basic-nav-dropdown">
-                                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                                    <NavDropdown classNames="navbar-drk" title="Past projects" id="basic-nav-dropdown">
+                                        <NavDropdown classNames="navbar-drk" title="Rocketry" id="basic-nav-dropdown">
+                                            <NavDropdown.Item href="/cambridge-rocketry-simulator">Cambridge Rocketry Simulator</NavDropdown.Item>
+                                            <NavDropdown.Item href="/cambridge-rocketry-toolbox">Cambridge Rocketry Toolbox</NavDropdown.Item>
+                                            <NavDropdown.Item href="/rocket-flight-simulation">Rocket flight simulation</NavDropdown.Item>
+                                        </NavDropdown>
                                         <NavDropdown.Divider />
                                         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                                     </NavDropdown>
@@ -40,11 +42,14 @@ class BootstrapNavbar extends React.Component{
                                 <Route exact path="/">
                                     <Testpage />
                                 </Route>
-                                <Route path="/about-us">
-                                    <Testpage />
+                                <Route path="/cambridge-rocketry-simulator">
+                                    <CambridgeRocketrySimulator/>
                                 </Route>
-                                <Route path="/contact-us">
-                                    <Testpage />
+                                <Route path="/cambridge-rocketry-toolbox">
+                                    <CambridgeRocketryToolbox/>
+                                </Route>
+                                <Route path="/rocket-flight-simulation">
+                                    <RocketFlightSimulation/>
                                 </Route>
                             </Switch>
                         </Router>
