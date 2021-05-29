@@ -16,6 +16,7 @@ import SlotCarTrafficControl from './pages/slot-car-traffic-control.js';
 import HumanTrafficControlExperiment from './pages/human_traffic_control_experiment.js';
 import Software from './pages/software.js';
 import Publications from './pages/publications.js';
+import Home from './pages/home.js';
 
 class BootstrapNavbar extends React.Component{
 
@@ -26,11 +27,10 @@ class BootstrapNavbar extends React.Component{
                     <div className="col-md-12">
                         <Router>
                             <Navbar className="navbar-drk" expand="lg" sticky="top">
-                                <Navbar.Brand href="#home">SimonBox.info</Navbar.Brand>
+                                <Navbar.Brand href="/">SimonBox.info</Navbar.Brand>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="mr-auto">
-                                    <Nav.Link href="/">Testpage</Nav.Link>
                                     <NavDropdown classNames="navbar-drk" title="Past projects" id="basic-nav-dropdown">
                                         <NavDropdown classNames="navbar-drk" title="Astronomy" id="basic-nav-dropdown">
                                             <NavDropdown.Item href="/raspberry-pi-itelescope">Raspberry Pi iTelescope</NavDropdown.Item>
@@ -54,7 +54,7 @@ class BootstrapNavbar extends React.Component{
                             <br />
                             <Switch>
                                 <Route exact path="/">
-                                    <Testpage />
+                                    <Home/>
                                 </Route>
                                 <Route path="/cambridge-rocketry-simulator">
                                     <CambridgeRocketrySimulator/>
