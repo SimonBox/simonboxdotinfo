@@ -31,17 +31,17 @@ class BootstrapNavbar extends React.Component{
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="mr-auto">
-                                    <NavDropdown classNames="navbar-drk" title="Past projects" id="basic-nav-dropdown">
-                                        <NavDropdown classNames="navbar-drk" title="Astronomy" id="basic-nav-dropdown">
+                                    <NavDropdown classnames="navbar-drk" title="Past projects" id="basic-nav-dropdown">
+                                        <NavDropdown classnames="navbar-drk" title="Astronomy" id="basic-nav-dropdown">
                                             <NavDropdown.Item href="/raspberry-pi-itelescope">Raspberry Pi iTelescope</NavDropdown.Item>
                                             <NavDropdown.Item href="/instrumenting-a-dobsonian">Instrumenting a Dobsonian</NavDropdown.Item>
                                         </NavDropdown>
-                                        <NavDropdown classNames="navbar-drk" title="Rocketry" id="basic-nav-dropdown">
+                                        <NavDropdown classnames="navbar-drk" title="Rocketry" id="basic-nav-dropdown">
                                             <NavDropdown.Item href="/cambridge-rocketry-simulator">Cambridge Rocketry Simulator</NavDropdown.Item>
                                             <NavDropdown.Item href="/cambridge-rocketry-toolbox">Cambridge Rocketry Toolbox</NavDropdown.Item>
                                             <NavDropdown.Item href="/rocket-flight-simulation">Rocket flight simulation</NavDropdown.Item>
                                         </NavDropdown>
-                                        <NavDropdown classNames="navbar-drk" title="Transporation" id="basic-nav-dropdown">
+                                        <NavDropdown classnames="navbar-drk" title="Transporation" id="basic-nav-dropdown">
                                             <NavDropdown.Item href="slot-car-traffic-control">Slot car traffic control</NavDropdown.Item>
                                             <NavDropdown.Item href="human-traffic-control-experiment">Human traffic control experiment</NavDropdown.Item>
                                         </NavDropdown>
