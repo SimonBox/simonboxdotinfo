@@ -9,7 +9,7 @@ class Home extends Page{
         return(
             <div>
                 <h3>Current Role</h3>
-                <p>At present I am Senior Director of Simulation and Offline Testing at <a href="https://aurora.tech">Aurora</a>, where our mission is to deliver the befetits of self driving safely, quickly and broadly. You can see some of the amazing work from the team I serve on the offical Aurora blog. For example:</p>
+                <p>At present I am Director of Simulation and Offline Testing at <a href="https://aurora.tech">Aurora</a>, where our mission is to deliver the befetits of self driving safely, quickly and broadly. You can see some of the amazing work from the team I serve on the offical Aurora blog. For example:</p>
                 <ul>- <a href="https://aurora.tech/blog/scaling-simulation">Scaling Simulation</a></ul>
                 <ul>- <a href="https://aurora.tech/blog/virtual-testing-the-invisible-accelerator">Virtual Testing</a></ul>
                 <ul>- <a href="https://aurora.tech/blog/online-to-offline">Online to Offline</a></ul>
