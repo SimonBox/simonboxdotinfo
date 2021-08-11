@@ -45,7 +45,9 @@ class BootstrapNavbar extends React.Component{
                                             <NavDropdown.Item href="slot-car-traffic-control">Slot car traffic control</NavDropdown.Item>
                                             <NavDropdown.Item href="human-traffic-control-experiment">Human traffic control experiment</NavDropdown.Item>
                                         </NavDropdown>
-                                        <NavDropdown.Item href="calculatweet">Calculatweet</NavDropdown.Item>
+                                        <NavDropdown classnames="navbar-drk" title="Web" id="basic-nav-dropdown">
+                                            <NavDropdown.Item href="calculatweet">Calculatweet</NavDropdown.Item>
+                                        </NavDropdown>
                                     </NavDropdown>
                                     <Nav.Link href="/software">Software</Nav.Link>
                                     <Nav.Link href="/publications">Publications</Nav.Link>
@@ -120,6 +122,12 @@ class BootstrapNavbar extends React.Component{
                                 </Route>
                                 <Route exact path="/index.php/astronomy/77-instrumenting-a-dobsonian-reflecting-telescope">
                                     <InstrumentingADobsonian/>
+                                </Route>
+                                <Route exact path="/index.php/software">
+                                    <Software/>
+                                </Route>
+                                <Route exact path="/index.php/publications">
+                                    <Publications/>
                                 </Route>
                                 <Route>
                                     <Home/>

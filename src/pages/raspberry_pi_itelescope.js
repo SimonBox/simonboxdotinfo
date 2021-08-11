@@ -23,7 +23,7 @@ class RaspberryPiITelescope extends Page{
                 <h2>The Components</h2>
                 <h3>Hardware:</h3>
                 <ul>
-                <li><b>Telescope: </b> <a href="http://www.skywatchertelescope.net/swtinc/product.php?id=52&class1=1&class2=106">Sky-Watcher 10" Dobsonian</a></li>
+                <li><b>Telescope: </b> <a href="http://skywatcher.com/product/bk-dob-10-collapsible/">Sky-Watcher 10" Dobsonian</a></li>
                 <li><b>Telescope computer: </b> <a href="http://www.raspberrypi.org/">Raspberry Pi</a></li>
                 <li><b>Analogue Digital Converter: </b> <a href="http://www.abelectronics.co.uk/products/3/Raspberry-Pi/17/ADC-Pi-V2---Raspberry-Pi-Analogue-to-Digital-converter">AB Electronics ADC PI V2</a></li>
                 <li><b>Bluetooth Dongle: </b> <a href="http://lm-technologies.com/adapters/bluetooth-usb-adapters/lm540-bluetooth-usb-adapters/">LM technologies lm540 bluetooth adabpter </a></li>

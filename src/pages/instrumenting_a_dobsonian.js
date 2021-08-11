@@ -20,7 +20,7 @@ class InstrumentingADobsonian extends Page{
                 <YoutubeEmbed embedId="2eTR0QFh6kw"/>
                 <YoutubeEmbed embedId="s1LFy5OCD5s"/>
                 <h3>The plan</h3>
-                <p>The telescope I am using for this project is a <a href="http://www.skywatcher.com/swtinc/product.php?id=52&amp;class1=1&amp;class2=106">Skywatcher 10" Dobsonian</a>. This comes on a simple plywood <a href="http://en.wikipedia.org/wiki/Altazimuth_mount"> alt-azimuth mount</a>, which has the advantage of being mechanically very simple. The downside is that tracking an object's motion is tricky as it requires movement in both axes, unlike <a href="http://en.wikipedia.org/wiki/Equatorial_mount">equatorial mounts</a>.</p>
+                <p>The telescope I am using for this project is a <a href="http://skywatcher.com/product/bk-dob-10-collapsible/">Skywatcher 10" Dobsonian</a>. This comes on a simple plywood <a href="http://en.wikipedia.org/wiki/Altazimuth_mount"> alt-azimuth mount</a>, which has the advantage of being mechanically very simple. The downside is that tracking an object's motion is tricky as it requires movement in both axes, unlike <a href="http://en.wikipedia.org/wiki/Equatorial_mount">equatorial mounts</a>.</p>
                 <p>The steps to computerizing this telescope mount are as follows:</p>
                 <ol>
                 <li>Fit instrumentation to measure the angles of <a href="http://en.wikipedia.org/wiki/Horizontal_coordinate_system"><em>altitude</em> and <em>azimuth</em></a>.</li>
@@ -35,7 +35,7 @@ class InstrumentingADobsonian extends Page{
                 <li><a href="http://uk.rs-online.com/web/p/trimmers-potentiometer-rheostat/7081504/">Magnetopots</a> have been fitted to the base to measure angles of azimuth and altitude</li>
                 <li>An <a href="http://www.arduino.cc/">Arduino</a> micro-controller is used to record measurements from the Magnetoptots, calculate angle conversions to right ascension and declination and to manage serial communications with a pc.</li>
                 <li><a href="http://www.stellarium.org/">Stellarium</a> virtual planetarium software is used on a pc connected to the telescope and displays the direction which the telescope is pointing using a reticule on screen.</li>
-                <li>The control software that I have developed for this is open source. While a stable "release" version is not yet available you can browse and download the source code (bugs and all) from its GIT repository. The link can be found on my <a href="index.php/software/#itelescope">software page.</a></li>
+                <li>The control software that I have developed for this is open source. While a stable "release" version is not yet available you can browse and download the source code (bugs and all) from its GIT repository. The link can be found on my <a href="/software">software page.</a></li>
                 </ul>
             </div>
         )
