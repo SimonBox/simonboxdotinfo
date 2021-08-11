@@ -16,7 +16,6 @@ const pub_keys = [
  'sowman2018use',
  'eerland2017cambridge',
  'eerland2017teetool',
- 'eerland2017open',
  'box2014fine',
  'box2013urban',
  'box2012methodology',

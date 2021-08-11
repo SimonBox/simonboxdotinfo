@@ -41,7 +41,7 @@ const bibtex_str = `
 @inproceedings{lees2013hidden,
   title={Hidden markov models for vehicle tracking with bluetooth},
   author={Lees-Miller, John and Wilson, R Eddie and Box, Simon},
-  booktitle = {13-3032 TRB Highway Traffic Monitoring Committee (ABJ35).},
+  booktitle = {13-3032 TRB Highway Traffic Monitoring Committee (ABJ35)},
   year={2013},
   url={https://eprints.soton.ac.uk/363666/1/bluetoothHMM.pdf}
 }
@@ -81,7 +81,7 @@ const bibtex_str = `
   number={6},
   pages={656--673},
   year={2007},
-  doi = {doi:10.1016/j.jaerosci.2007.04.004},
+  doi = {10.1016/j.jaerosci.2007.04.004},
   publisher={Pergamon},
   url={https://www.sciencedirect.com/science/article/abs/pii/S0021850207000663},
 }
@@ -264,7 +264,7 @@ const bibtex_str = `
 
 @article{eerland2016modeling,
   title={Modeling the dispersion of aircraft trajectories using Gaussian processes},
-  author={Eerland, Willem J and Box, Simon and S{\'o}bester, Andr{\'a}s},
+  author={Eerland, Willem J and Box, Simon and Sobester, Andras},
   journal={Journal of Guidance, Control, and Dynamics},
   volume={39},
   number={12},
@@ -302,7 +302,7 @@ const bibtex_str = `
 
 @inproceedings{eerland2017open,
   title={An open-source, stochastic, six-degrees-of-freedom rocket flight simulator, with a probabilistic trajectory analysis approach},
-  author={Eerland, Willem J and Box, Simon and Fangohr, Hans and S{\'o}bester, Andr{\'a}s},
+  author={Eerland, Willem J and Box, Simon and Fangohr, Hans and Sobester, Andras},
   booktitle={AIAA Modeling and Simulation Technologies Conference},
   pages={1556},
   year={2017}
@@ -310,7 +310,7 @@ const bibtex_str = `
 
 @article{eerland2017cambridge,
   title={Cambridge Rocketry Simulator-a stochastic six-degrees-of-freedom rocket flight simulator},
-  author={Eerland, Willem and Box, Simon and S{\'o}bester, Andr{\'a}s},
+  author={Eerland, Willem and Box, Simon and Sobester, Andras},
   journal={Journal of Open Research Software},
   volume={5},
   number={1},
@@ -322,7 +322,7 @@ const bibtex_str = `
 
 @article{eerland2017teetool,
   title={Teetool--a probabilistic trajectory analysis tool},
-  author={Eerland, Willem and Box, Simon and Fangohr, Hans and S{\'o}bester, Andr{\'a}s},
+  author={Eerland, Willem and Box, Simon and Fangohr, Hans and Sobester, Andras},
   journal={Journal of Open Research Software},
   volume={5},
   number={1},
