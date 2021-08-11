@@ -6,7 +6,6 @@ class Software extends Page{
         return(
             <div>
                 <h2>Open Source Software</h2>
-                <a href="javascrip:void(0)" data-href="/citations?view_op=view_citation&hl=en&user=YPK0NDUAAAAJ&citation_for_view=YPK0NDUAAAAJ:u-x6o8ySG0sC"> what is it? </a>
                 <p>All the software below is free and open source. It is hosted on <a href="http://sourceforge.net/">SourceForge</a>, the links below redirect you to the relevant SourceForge download page.</p>
                 <h2>Transportation Software</h2>
                 <h3><a name="scalextriccode"></a>Scalextric demand responsive traffic control</h3>
