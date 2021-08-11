@@ -82,6 +82,43 @@ class BootstrapNavbar extends React.Component{
                                 <Route path="/publications">
                                     <Publications/>
                                 </Route>
+                                {/*Old Website redirects*/}
+                                <Route exact path="/index.php">
+                                    <Home/>
+                                </Route> 
+                                <Route exact path="/index.php/transportation">
+                                    <HumanTrafficControlExperiment/>
+                                </Route>
+                                <Route exact path="/index.php/transportation/91-human-junction-control-experiment">
+                                    <HumanTrafficControlExperiment/>
+                                </Route>
+                                <Route exact path="/index.php/transportation/80-scalextric-with-traffic-control">
+                                    <SlotCarTrafficControl/>
+                                </Route>
+                                <Route exact path="/index.php/rocketry">
+                                    <CambridgeRocketrySimulator/>
+                                </Route>
+                                <Route exact path="/index.php/rocketry/71-cambridge-rocketry-simulator">
+                                    <CambridgeRocketrySimulator/>
+                                </Route>
+                                <Route exact path="/index.php/rocketry/72-cambridge-rocketry-toolbox">
+                                    <CambridgeRocketryToolbox/>
+                                </Route>
+                                <Route exact path="/index.php/rocketry/70-rocket-flight-simulation">
+                                    <RocketFlightSimulation/>
+                                </Route>
+                                <Route exact path="/index.php/astronomy">
+                                    <RaspberryPiITelescope/>
+                                </Route>
+                                <Route exact path="/index.php/astronomy/93-raspberry-pi-itelescope">
+                                    <RaspberryPiITelescope/>
+                                </Route>
+                                <Route exact path="/index.php/astronomy/77-instrumenting-a-dobsonian-reflecting-telescope">
+                                    <InstrumentingADobsonian/>
+                                </Route>
+                                <Route>
+                                    <Home/>
+                                </Route>
                             </Switch>
                         </Router>
                     </div>
