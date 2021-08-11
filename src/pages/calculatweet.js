@@ -1,4 +1,5 @@
 import Page from '../page.js'
+import { TwitterTimelineEmbed } from "react-twitter-embed";
 import '../page.css';
 
 class Calculatweet extends Page{
@@ -14,8 +15,19 @@ class Calculatweet extends Page{
                 <p>Luckily since 2012 Twitter has provided an additional <a href="https://dev.twitter.com/streaming/overview">Streaming API</a>, which allows you to listen for incoming tweets with specific keywords and respond to them instantly as they arrive. It's a conversation starter.</p>
 
                 <p>In order to test out the Streaming API I built a simple twitter bot called Calculatweet. If you tweet @calculatweet with a string that may reasonably be parsed as a sum (e.g. 3.14159*3^2/4) then calculatweet should respond quite quickly with a direct tweet to you containing the answer. Have a play with it below.</p>
-
-
+                <TwitterTimelineEmbed
+                      sourceType="profile"
+                      screenName="Calculatweet"
+                      options={{
+                        tweetLimit: "5",
+                        width: "50%",
+                        height: "100%"
+                      }}
+                      theme="dark"
+                      noHeader="true"
+                      noBorders="true"
+                      noFooter="true"
+                ></TwitterTimelineEmbed>
                 <h2>Feel like a challenge?</h2>
                 <p>Currently Calculatweet is hosted on an Amazon EC2 server. Unfortunately I have not open-sourced the code yet because I am using Calculatweet as a platform for a coding challenge for engineers, which would be <em>a lot</em> easier if they could find the code online.</p>
 

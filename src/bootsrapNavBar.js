@@ -45,6 +45,7 @@ class BootstrapNavbar extends React.Component{
                                             <NavDropdown.Item href="slot-car-traffic-control">Slot car traffic control</NavDropdown.Item>
                                             <NavDropdown.Item href="human-traffic-control-experiment">Human traffic control experiment</NavDropdown.Item>
                                         </NavDropdown>
+                                        <NavDropdown.Item href="calculatweet">Calculatweet</NavDropdown.Item>
                                     </NavDropdown>
                                     <Nav.Link href="/software">Software</Nav.Link>
                                     <Nav.Link href="/publications">Publications</Nav.Link>
