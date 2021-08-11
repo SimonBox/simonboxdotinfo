@@ -36,7 +36,15 @@ class Publications extends Page{
         const pub_json = get_publication_by_key(key);
         const journal = pub_json.entryTags.journal || pub_json.entryTags.booktitle;
         let entry = [];
-        entry.push((<li>{pub_json.entryTags.author} ({pub_json.entryTags.year}) <a href={pub_json.entryTags.url}>{pub_json.entryTags.title}.</a> <i>{journal}.</i></li>));
+        var doi_lab = "";
+        var doi = ""; 
+        var doi_url = "";
+        if (pub_json.entryTags.doi) {
+            doi_lab = "doi: ";
+            doi = pub_json.entryTags.doi;
+            doi_url = "https://doi.org/" + doi;
+        }
+        entry.push((<li>{pub_json.entryTags.author} ({pub_json.entryTags.year}) <a href={pub_json.entryTags.url}>{pub_json.entryTags.title}.</a> <i>{journal}.</i> {doi_lab} <a href={doi_url}>{doi}</a></li>));
         return entry;
     }
     get_formatted_publication_list() {
