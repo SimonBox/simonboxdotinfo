@@ -13,6 +13,7 @@ import RaspberryPiITelescope from './pages/raspberry_pi_itelescope.js';
 import InstrumentingADobsonian from './pages/instrumenting_a_dobsonian.js';
 import SlotCarTrafficControl from './pages/slot-car-traffic-control.js';
 import HumanTrafficControlExperiment from './pages/human_traffic_control_experiment.js';
+import Calculatweet from './pages/calculatweet.js';
 import Software from './pages/software.js';
 import Publications from './pages/publications.js';
 import Home from './pages/home.js';
@@ -75,6 +76,9 @@ class BootstrapNavbar extends React.Component{
                                 </Route>
                                 <Route path="/human-traffic-control-experiment">
                                     <HumanTrafficControlExperiment/>
+                                </Route>
+                                <Route path="/calculatweet">
+                                    <Calculatweet/>
                                 </Route>
                                 <Route path="/software">
                                     <Software/>
