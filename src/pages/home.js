@@ -1,7 +1,14 @@
 import Page from '../page.js'
+import ImageTile from '../image_tile.js';
 import '../page.css';
 
-const images = [];
+const images = [{caption: "Scalextric Track", source: "/img/trafficlight_thumb.jpg"},
+                {caption: "Aurduino control", source: "/img/scalexss2_thumb.png"},
+                {caption: "Inductive loop circuit", source: "/img/fpmonte_thumb.png"},
+                {caption: "Traffic light circuit", source: "/img/telescopecomputer_thumb.png"},
+                {caption: "Traffic light circuit", source: "/img/rockschem3_thumb.jpg"},
+                {caption: "Traffic light circuit", source: "/img/oneshowscreenshot02_thumb.png"},
+];
 
 
 class Home extends Page{
@@ -30,6 +37,14 @@ class Home extends Page{
                 <li><a href="https://sourceforge.net/u/srb2242/profile/">Sourceforge</a></li>
                 </ul>
                 <h3>Past projects</h3>
+                <div className="image-narrow" align="center">
+                <ImageTile images={images} idx="0" width="175" url="https://doi.org/10.1098/rsos.140211"/>
+                <ImageTile images={images} idx="1" width="175" url="/slot-car-traffic-control"/>
+                <ImageTile images={images} idx="2" width="175" url="/cambridge-rocketry-simulator"/>
+                <ImageTile images={images} idx="3" width="175" url="/instrumenting-a-dobsonian"/>
+                <ImageTile images={images} idx="4" width="175" url="/rocket-flight-simulation"/>
+                <ImageTile images={images} idx="5" width="175" url="human-traffic-control-experiment"/>
+                </div>
             </div>
         )
     }
