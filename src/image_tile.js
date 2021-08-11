@@ -1,9 +1,6 @@
 import React from 'react';
 
 class ImageTile extends React.Component {
-    constructor(props){
-        super(props);
-    }
     followlink = () => {
         window.open(this.props.url, "_self");
     }

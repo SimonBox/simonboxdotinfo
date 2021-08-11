@@ -67,7 +67,7 @@ const bibtex_str = `
 @article{box2011can,
   title={What can traffic lights learn from us?},
   author={Box, Simon},
-  journal={Traffic Engineering \& Control},
+  journal={Traffic Engineering & Control},
   volume={52},
   number={8},
   year={2011}

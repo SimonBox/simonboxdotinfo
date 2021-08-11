@@ -6,7 +6,6 @@ import {
     Route
   } from "react-router-dom";
 import { Navbar,Nav,NavDropdown} from 'react-bootstrap';
-import Testpage from './pages/test_page.js';
 import RocketFlightSimulation from './pages/rocket_flight_simulation.js';
 import CambridgeRocketrySimulator from './pages/cambridge_rocketry_simulator.js';
 import CambridgeRocketryToolbox from './pages/cambridge_rocketry_toolbox.js';
