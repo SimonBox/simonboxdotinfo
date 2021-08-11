@@ -25,12 +25,12 @@ class Home extends Page{
                 </ul>
                 <p>You can also read/hear nice things that Aurora's CEO <a href="https://en.wikipedia.org/wiki/Chris_Urmson">Chris Urmson</a> has said about the Simulation team's work in these interviews:</p>
                 <ul>
-                <li><a href="/bi_urmson_virtual_testing.pdf" download>Business Insider interview</a></li>
+                <li><a href={process.env.PUBLIC_URL + '/bi_urmson_virtual_testing.pdf'}>Business Insider interview</a></li>
                 <li><a href="https://youtu.be/5gzRNVL3p2c?t=2674">This Week in Startups interview</a></li>
                 </ul>
                 <h3>Links</h3>
                 <ul>
-                <li><a href="/resume_sbox.pdf" download>Resume/CV</a></li>
+                <li><a href={process.env.PUBLIC_URL + '/resume_sbox.pdf'}>Resume/CV</a></li>
                 <li><a href="/publications">Published articles</a></li>
                 <li><a href="https://www.linkedin.com/in/simon-box-8090379a/">LinkedIn</a></li>
                 <li><a href="https://github.com/SimonBox">Github</a></li>
