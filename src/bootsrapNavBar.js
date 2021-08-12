@@ -129,9 +129,6 @@ class BootstrapNavbar extends React.Component{
                                 <Route exact path="/index.php/publications">
                                     <Publications/>
                                 </Route>
-                                <Route>
-                                    <Home/>
-                                </Route>
                             </Switch>
                         </Router>
                     </div>
