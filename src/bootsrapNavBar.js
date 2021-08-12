@@ -59,75 +59,60 @@ class BootstrapNavbar extends React.Component{
                                 <Route exact path="/">
                                     <Home/>
                                 </Route>
-                                <Route path="/cambridge-rocketry-simulator">
+                                <Route path="*cambridge-rocketry-simulator">
                                     <CambridgeRocketrySimulator/>
                                 </Route>
-                                <Route path="/cambridge-rocketry-toolbox">
+                                <Route path="*cambridge-rocketry-toolbox">
                                     <CambridgeRocketryToolbox/>
                                 </Route>
-                                <Route path="/rocket-flight-simulation">
+                                <Route path="*rocket-flight-simulation">
                                     <RocketFlightSimulation/>
                                 </Route>
-                                <Route path="/raspberry-pi-itelescope">
+                                <Route path="*raspberry-pi-itelescope">
                                     <RaspberryPiITelescope/>
                                 </Route>
-                                <Route path="/instrumenting-a-dobsonian">
+                                <Route path="*instrumenting-a-dobsonian">
                                     <InstrumentingADobsonian/>
                                 </Route>
                                 <Route path="/slot-car-traffic-control">
                                     <SlotCarTrafficControl/>
                                 </Route>
-                                <Route path="/human-traffic-control-experiment">
+                                <Route path="*scalextric-with-traffic-control">
+                                    <SlotCarTrafficControl/>
+                                </Route>
+                                <Route path="*human-traffic-control-experiment">
                                     <HumanTrafficControlExperiment/>
                                 </Route>
-                                <Route path="/calculatweet">
+                                <Route path="*human-junction-control-experiment">
+                                    <HumanTrafficControlExperiment/>
+                                </Route>
+                                <Route path="*calculatweet">
                                     <Calculatweet/>
                                 </Route>
-                                <Route path="/software">
+                                <Route path="*calculatweet">
+                                    <Calculatweet/>
+                                </Route>
+                                <Route path="*twitter-s-streaming-api-it-s-a-conversation-starter">
+                                    <Calculatweet/>
+                                </Route>
+                                <Route path="*software">
                                     <Software/>
                                 </Route>
-                                <Route path="/publications">
+                                <Route path="*publications">
                                     <Publications/>
                                 </Route>
                                 {/*Old Website redirects*/}
-                                <Route exact path="/index.php">
+                                <Route path="*transportation">
+                                    <HumanTrafficControlExperiment/>
+                                </Route>
+                                <Route exact path="*rocketry">
+                                    <CambridgeRocketrySimulator/>
+                                </Route>
+                                <Route exact path="*astronomy">
+                                    <RaspberryPiITelescope/>
+                                </Route>
+                                <Route>
                                     <Home/>
-                                </Route> 
-                                <Route exact path="/index.php/transportation">
-                                    <HumanTrafficControlExperiment/>
-                                </Route>
-                                <Route exact path="/index.php/transportation/91-human-junction-control-experiment">
-                                    <HumanTrafficControlExperiment/>
-                                </Route>
-                                <Route exact path="/index.php/transportation/80-scalextric-with-traffic-control">
-                                    <SlotCarTrafficControl/>
-                                </Route>
-                                <Route exact path="/index.php/rocketry">
-                                    <CambridgeRocketrySimulator/>
-                                </Route>
-                                <Route exact path="/index.php/rocketry/71-cambridge-rocketry-simulator">
-                                    <CambridgeRocketrySimulator/>
-                                </Route>
-                                <Route exact path="/index.php/rocketry/72-cambridge-rocketry-toolbox">
-                                    <CambridgeRocketryToolbox/>
-                                </Route>
-                                <Route exact path="/index.php/rocketry/70-rocket-flight-simulation">
-                                    <RocketFlightSimulation/>
-                                </Route>
-                                <Route exact path="/index.php/astronomy">
-                                    <RaspberryPiITelescope/>
-                                </Route>
-                                <Route exact path="/index.php/astronomy/93-raspberry-pi-itelescope">
-                                    <RaspberryPiITelescope/>
-                                </Route>
-                                <Route exact path="/index.php/astronomy/77-instrumenting-a-dobsonian-reflecting-telescope">
-                                    <InstrumentingADobsonian/>
-                                </Route>
-                                <Route exact path="/index.php/software">
-                                    <Software/>
-                                </Route>
-                                <Route exact path="/index.php/publications">
-                                    <Publications/>
                                 </Route>
                             </Switch>
                         </Router>
