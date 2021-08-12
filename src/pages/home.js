@@ -1,7 +1,5 @@
 import Page from '../page.js'
 import ImageTile from '../image_tile.js';
-import resume_pdf from '../pdfs/resume_sbox.pdf';
-import bi_article_pdf from '../pdfs/bi_urmson_virtual_testing.pdf';
 import '../page.css';
 
 const images = [{caption: "Scalextric Track", source: "/img/trafficlight_thumb.jpg"},
@@ -27,12 +25,12 @@ class Home extends Page{
                 </ul>
                 <p>You can also read/hear nice things that Aurora's CEO <a href="https://en.wikipedia.org/wiki/Chris_Urmson">Chris Urmson</a> has said about the Simulation team's work in these interviews:</p>
                 <ul>
-                <li><a href={bi_article_pdf}>Business Insider interview</a></li>
+                <li><a href="/bi_urmson_virtual_testing.pdf">Business Insider interview</a></li>
                 <li><a href="https://youtu.be/5gzRNVL3p2c?t=2674">This Week in Startups interview</a></li>
                 </ul>
                 <h3>Links</h3>
                 <ul>
-                <li><a href={resume_pdf}>Resume/CV</a></li>
+                <li><a href="/resume_sbox.pdf">Resume/CV</a></li>
                 <li><a href="/publications">Published articles</a></li>
                 <li><a href="https://www.linkedin.com/in/simon-box-8090379a/">LinkedIn</a></li>
                 <li><a href="https://github.com/SimonBox">Github</a></li>
